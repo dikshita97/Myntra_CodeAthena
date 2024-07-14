@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="style_upload.css"/>
+</head>
+<body>
+
+        <form action="upload.php" method="post" enctype="multipart/form-data" class="upload">
+        
+            <input type="text" name="product_name" id="product-name" placeholder="Product Name" required>
+        <input type="file" name="product_photos[]" id="product-photos" multiple required>
+        <textarea name="material_details" id="material-details" placeholder="Material Details" required></textarea>
+        <select name="size" id="size" required>
+            <option value>Select Size</option>
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+        </select>
+        <input type="number" name="price" id="price" placeholder="Price" required>
+        <input type="text" name="upi_code" id="upi-code" placeholder="UPI ID" required>
+        <button type="submit" id="upload-product-btn">Upload</button>
+
+        </form>
+    
+    
+</body>
+</html>

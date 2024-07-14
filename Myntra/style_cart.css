@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+/* Cart Items */
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-item {
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #ffb6c1;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff0f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+.cart-item h2 {
+    font-size: 1.5em;
+    color: #ff69b4;
+}
+
+.cart-item p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.cart-item button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+    background-color: #ff1493;
+}
